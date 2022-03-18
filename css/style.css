@@ -14,6 +14,11 @@
     max-width: 1280px;
     margin: auto;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /*------------
     Debug
@@ -28,6 +33,19 @@
     min-height: 500px;
 }
 
+.debug .leadership {
+    background-color: #0086ff;
+}
+.debug .leadership-title {
+    background-color: lightblue;
+    min-height: 100px;
+}
+
+.debug .col-left, .debug .col-middle, .debug .col-right {
+    background-color: lightblue;
+    min-height: 300px;
+}
+
 /*------------
     Header
 -------------*/
@@ -40,4 +58,21 @@ header {
 -------------*/
 .hero {
     margin-bottom: 20px;
+}
+
+.columns {
+    margin: 15px 0;
+}
+
+.col-left, .col-middle, .col-right {
+    float: left;
+}
+
+.col-left, .col-right {
+    width: 20%;
+}
+
+.col-middle {
+    width: calc(60% - 40px);
+    margin: auto 20px;
 }
