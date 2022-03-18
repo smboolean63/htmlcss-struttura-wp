@@ -23,9 +23,21 @@
     min-height: 150px;
 }
 
+.debug .hero {
+    background-color: #e1d67a;
+    min-height: 500px;
+}
+
 /*------------
     Header
 -------------*/
 header {
+    margin-bottom: 20px;
+}
+
+/*------------
+    Main
+-------------*/
+.hero {
     margin-bottom: 20px;
 }
