@@ -41,7 +41,7 @@
     min-height: 100px;
 }
 
-.debug .col-left, .debug .col-middle, .debug .col-right {
+.debug .col {
     background-color: lightblue;
     min-height: 300px;
 }
@@ -69,7 +69,7 @@ header {
     margin: 15px 0;
 }
 
-.col-left, .col-middle, .col-right {
+/* .col-left, .col-middle, .col-right {
     float: left;
 }
 
@@ -78,6 +78,16 @@ header {
 }
 
 .col-middle {
+    width: calc(60% - 40px);
+    margin: auto 20px;
+} */
+
+.col {
+    float: left;
+    width: 20%;
+}
+
+.col-big {
     width: calc(60% - 40px);
     margin: auto 20px;
 }
